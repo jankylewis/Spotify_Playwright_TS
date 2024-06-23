@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccedbbd4-1733-4bd9-8b42-8522d2659781" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spotify-gui-tests/login.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/AbstractPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/AbstractPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/HomePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/HomePage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/HomePageObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/HomePageObjects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/LoginObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/LoginObjects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/example.spec.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;00ffeaff&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2i3eAHeLiA998WWIZigrKvu1uOD" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (1).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (2).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (3).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (4).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (5).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway (6).executor": "Debug",
+    "Playwright.Log in tests.User logged in successfully into Spotify gateway.executor": "Run",
+    "Playwright.Login tests.User logged in successfully into Spotify gateway.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jankylewis/Documents/se/javascript_repos/SPOTIFY-PLAYWRIGHT-TS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/jankylewis/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.rename.search.for.dynamic.occurrences": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spotify-test-services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Playwright.Login tests.User logged in successfully into Spotify gateway">
+    <configuration name="Log in tests.User logged in successfully into Spotify gateway (1)" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" />
+      <test-names>
+        <test-name value="Log in tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log in tests.User logged in successfully into Spotify gateway (2)" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" />
+      <test-names>
+        <test-name value="Log in tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log in tests.User logged in successfully into Spotify gateway (7)" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" />
+      <test-names>
+        <test-name value="Log in tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log in tests.User logged in successfully into Spotify gateway" type="JavaScriptTestRunnerPlaywright" temporary="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" />
+      <test-names>
+        <test-name value="Log in tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Log in tests.User logged in successfully into Spotify gateway" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" />
+      <test-names>
+        <test-name value="Log in tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Login tests.User logged in successfully into Spotify gateway" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/spotify-gui-tests/login.spec.ts" />
+      <test-names>
+        <test-name value="Login tests" />
+        <test-name value="User logged in successfully into Spotify gateway" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Playwright.Login tests.User logged in successfully into Spotify gateway" />
+        <item itemvalue="Playwright.Log in tests.User logged in successfully into Spotify gateway" />
+        <item itemvalue="Playwright.Log in tests.User logged in successfully into Spotify gateway (7)" />
+        <item itemvalue="Playwright.Log in tests.User logged in successfully into Spotify gateway (2)" />
+        <item itemvalue="Playwright.Log in tests.User logged in successfully into Spotify gateway (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccedbbd4-1733-4bd9-8b42-8522d2659781" name="Changes" comment="" />
+      <created>1718723542113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718723542113</updated>
+      <workItem from="1718723543115" duration="4689000" />
+      <workItem from="1719024023228" duration="746000" />
+      <workItem from="1719031795779" duration="29000" />
+      <workItem from="1719041835316" duration="7750000" />
+      <workItem from="1719059206796" duration="17413000" />
+      <workItem from="1719121367597" duration="126000" />
+      <workItem from="1719121498423" duration="9000" />
+      <workItem from="1719121520551" duration="194000" />
+      <workItem from="1719122049313" duration="148000" />
+      <workItem from="1719122330107" duration="81000" />
+      <workItem from="1719122433217" duration="103000" />
+      <workItem from="1719122701125" duration="259000" />
+      <workItem from="1719133169930" duration="1820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

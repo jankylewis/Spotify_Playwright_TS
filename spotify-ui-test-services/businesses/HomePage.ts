@@ -1,16 +1,20 @@
-import { expect, Locator, Page } from "@playwright/test"
+import { Page } from "@playwright/test"
 import { AbstractPage } from "./AbstractPage"
 import { HomePageObjects } from "../page-objects/HomePageObjects"
 
 export class HomePage extends AbstractPage {
 
-    private readonly homePageObjects: any = new HomePageObjects()
+    private readonly homePageObjects: HomePageObjects = HomePageObjects.instance()
 
     constructor(page: Page) {
         super(page)
     }
 
-    async clickOnLoginButton(locator: Locator) {
-        this.commonUiActions.click(locator)
+    async clickOnLoginButton() {
+        await this.commonUiActions.click(this.homePageObjects.BTN_LOGIN)
+    }
+
+    async visitSpotifyHomePage() {
+        await this.page.goto("https://spotify.com/")
     }
 }

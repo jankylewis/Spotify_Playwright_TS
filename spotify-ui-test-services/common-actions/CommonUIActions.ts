@@ -1,13 +1,19 @@
 import { Page, Locator } from "@playwright/test"
+import { AbstractUIActions } from "./AbstractUIActions"
 
-export class CommonUIActions {
-    readonly page: Page
+export class CommonUIActions extends AbstractUIActions {
 
     constructor(page: Page) {
-        this.page = page
+        super(page)
     }
 
-    async click(locator: Locator) {
-        await locator.click()
+    async click(expElement: string): Promise<void> {
+        const actualElement: Locator = await this.findElement(expElement)
+        await actualElement.click()
+    }
+
+    async sendKeys(expElement: string, expKeys: string): Promise<void> {
+        const actualElement: Locator = await this.findElement(expElement)
+        await actualElement.fill(expKeys)
     }
 }

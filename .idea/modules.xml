@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PLAYWRIGHT_WITH_TS.iml" filepath="$PROJECT_DIR$/.idea/PLAYWRIGHT_WITH_TS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SPOTIFY-PLAYWRIGHT-TS.iml" filepath="$PROJECT_DIR$/.idea/SPOTIFY-PLAYWRIGHT-TS.iml" />
     </modules>
   </component>
 </project>
