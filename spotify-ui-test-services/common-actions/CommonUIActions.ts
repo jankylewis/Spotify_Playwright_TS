@@ -16,4 +16,8 @@ export class CommonUIActions extends AbstractUIActions {
         const actualElement: Locator = await this.findElement(expElement)
         await actualElement.fill(expKeys)
     }
+
+    async getElements(expElement: string): Promise<Array<Locator>> {
+        return await this.page.locator(expElement).all();
+    }
 }

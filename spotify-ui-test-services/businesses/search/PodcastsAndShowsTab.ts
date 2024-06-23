@@ -2,7 +2,7 @@ import {SearchPage} from "./SearchPage";
 import {Locator, Page} from "@playwright/test";
 import {CommonUIVerifications} from "../../common-actions/CommonUIVerifications";
 
-export class AlbumsTab extends SearchPage {
+export class PodcastsAndShowsTab extends SearchPage {
     readonly page: Page
     private readonly commonUiVerifications: CommonUIVerifications
 
