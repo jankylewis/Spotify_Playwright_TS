@@ -7,7 +7,7 @@ export abstract class AbstractComponents {
     protected commonUiActions: CommonUIActions
     protected commonUiVerifications: CommonUIVerifications
 
-    constructor(page: Page){
+    protected constructor(page: Page){
         this.page = page
         this.commonUiActions = new CommonUIActions(page)
         this.commonUiVerifications = new CommonUIVerifications(page)

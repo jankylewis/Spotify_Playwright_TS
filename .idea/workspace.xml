@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccedbbd4-1733-4bd9-8b42-8522d2659781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spotify-gui-tests/login.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-gui-tests/log-in.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/AbstractPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/AbstractPage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/HomePage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/HomePage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/HomePageObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/HomePageObjects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/LoginObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/LoginObjects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/example.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/shared/AbstractComponents.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/shared/AbstractComponents.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +64,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spotify-ui-test-services/businesses/search" />
+      <recent name="$PROJECT_DIR$/spotify-ui-test-services/common-actions/KeyboardActions" />
       <recent name="$PROJECT_DIR$/spotify-test-services" />
     </key>
   </component>
@@ -193,7 +183,7 @@
       <workItem from="1719122330107" duration="81000" />
       <workItem from="1719122433217" duration="103000" />
       <workItem from="1719122701125" duration="259000" />
-      <workItem from="1719133169930" duration="1820000" />
+      <workItem from="1719133169930" duration="4752000" />
     </task>
     <servers />
   </component>
