@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccedbbd4-1733-4bd9-8b42-8522d2659781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/PodcastsAndShowsTab.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/AbstractSearchPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/SearchPage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/AlbumsTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/AlbumsTab.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/AllTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/AllTab.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/ArtistsTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/ArtistsTab.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/PostcastsAndShowsTab.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/SongsTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/SongsTab.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIVerifications.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/CommonUIVerifications.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/KeyboardActions/KeyboardActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/keyboard-actions/KeyboardActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/KeyboardActions/KeyboardConstants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/common-actions/keyboard-actions/KeyboardConstants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/SearchObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects/SearchObjects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-global-utils/ErrorMessages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-global-utils/ErrorMessages.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +184,7 @@
       <workItem from="1719122330107" duration="81000" />
       <workItem from="1719122433217" duration="103000" />
       <workItem from="1719122701125" duration="259000" />
-      <workItem from="1719133169930" duration="14129000" />
+      <workItem from="1719133169930" duration="19492000" />
     </task>
     <servers />
   </component>
