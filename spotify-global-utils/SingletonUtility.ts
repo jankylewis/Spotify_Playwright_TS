@@ -6,7 +6,7 @@ export class SingletonUtility {
     private static _singletons: Map<string, object> = new Map()
     private static singletonError: CustomErrors = new CustomErrors()
 
-    static registerService<C>(preciseClassName: string, preciseClassType: C){
+    static registerService<C>(preciseClassName: string, preciseClassType: C): void{
 
         if (this._singletons.has(preciseClassName))
             throw new this.singletonError.SpotifySingleError(ErrorMessages.SINGLETON_ERROR(preciseClassName))

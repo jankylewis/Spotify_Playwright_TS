@@ -5,10 +5,11 @@ import { SearchPage } from "../spotify-ui-test-services/businesses/search/Search
 import { SearchTabs } from "../spotify-ui-test-services/models/tabs/SearchTabs"
 import { PodcastsAndShowsTab } from "../spotify-ui-test-services/businesses/search/PodcastsAndShowsTab"
 import { AlbumsTab } from "../spotify-ui-test-services/businesses/search/AlbumsTab"
-import {AllTab} from "../spotify-ui-test-services/businesses/search/AllTab";
-import {SongsTab} from "../spotify-ui-test-services/businesses/search/SongsTab";
+import { AllTab } from "../spotify-ui-test-services/businesses/search/AllTab";
+import { SongsTab } from "../spotify-ui-test-services/businesses/search/SongsTab";
+import { PlaylistsTab } from "../spotify-ui-test-services/businesses/search/PlaylistsTab";
 
-test.describe("Search tests", () => {
+test.describe("Search tests", (): void => {
 
     //region Introduce variables
 
@@ -19,7 +20,6 @@ test.describe("Search tests", () => {
     let searchKey: string
 
     //endregion Introduce variables
-
 
     test("Search successfully at Podcasts & Shows Tab", async ({page}): Promise<void> => {
 
@@ -57,11 +57,18 @@ test.describe("Search tests", () => {
 
         await leftBar.clickOnSearchButton();
         await searchPage.doSearching(searchKey)
-        await searchPage.landOnTab(SearchTabs.All.toString())
+        await searchPage.landOnTab(SearchTabs.Songs.toString())
         await new SongsTab(page).verifyTrackListContainedSearchKey(searchKey)
     })
 
-    //hurrykng
+    test("Search successfully at Playlists Tab", async ({page}): Promise<void> => {
+
+        searchKey = "hurrykng"
+        await leftBar.clickOnSearchButton();
+        await searchPage.doSearching(searchKey)
+        await searchPage.landOnTab(SearchTabs.Playlists.toString())
+        await new PlaylistsTab(page).verifyResultsContainedSearchKey(searchKey)
+    })
 
     test.beforeEach(async ({page}): Promise<void> => {
 

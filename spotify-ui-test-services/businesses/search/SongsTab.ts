@@ -6,7 +6,7 @@ import {SongsTabObjects} from "../../page-objects/search-objects/SongsTabObjects
 export class SongsTab extends SearchPage {
     readonly page: Page
     private readonly commonUiVerifications: CommonUIVerifications
-    private readonly songsTabObjects: SongsTabObjects
+    private readonly songsTabObjects: SongsTabObjects = SongsTabObjects.instance()
 
     constructor(page: Page) {
         super(page);

@@ -10,9 +10,9 @@ export class SearchObjects {
     }
 
     TXT_SEARCH: string = "header input[data-testid='tabs-input']"
+    LBL_RESULTS: string = "#searchPage div[data-encore-id='card']"
 
     BTN_SEARCHTABS(expTab: string): string{
         return `//div[@role='list']//a//button[@data-encore-id="chip"]//span[contains(text(), '${expTab}')]`
     }
-    LBL_RESULTS: string = "#searchPage div[data-encore-id='card']"
 }

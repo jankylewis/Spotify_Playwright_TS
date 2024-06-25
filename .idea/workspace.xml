@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ccedbbd4-1733-4bd9-8b42-8522d2659781" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spotify-global-utils/ErrorMessages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-global-utils/ErrorMessages.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-global-utils/SingletonUtility.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-gui-tests/search.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-gui-tests/search.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/PlaylistsTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/PlaylistsTab.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/ProfilesTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/ProfilesTab.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/SongsTab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/businesses/search/SongsTab.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects/SearchObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects/SearchObjects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects/SongsTabObjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects/SongsTabObjects.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +39,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (1).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (2).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (3).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (4).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (5).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway (6).executor": "Debug",
-    "Playwright.Log in tests.User logged in successfully into Spotify gateway.executor": "Run",
-    "Playwright.Login tests.User logged in successfully into Spotify gateway.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jankylewis/Documents/se/javascript_repos/SPOTIFY-PLAYWRIGHT-TS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Users/jankylewis/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "ts.rename.search.for.dynamic.occurrences": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (5).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway (6).executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Log in tests.User logged in successfully into Spotify gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login tests.User logged in successfully into Spotify gateway.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jankylewis/Documents/se/javascript_repos/SPOTIFY-PLAYWRIGHT-TS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jankylewis/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.rename.search.for.dynamic.occurrences&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spotify-ui-test-services/page-objects/search-objects" />
@@ -184,7 +190,9 @@
       <workItem from="1719122330107" duration="81000" />
       <workItem from="1719122433217" duration="103000" />
       <workItem from="1719122701125" duration="259000" />
-      <workItem from="1719133169930" duration="19492000" />
+      <workItem from="1719133169930" duration="23920000" />
+      <workItem from="1719316236258" duration="275000" />
+      <workItem from="1719322628616" duration="2086000" />
     </task>
     <servers />
   </component>
