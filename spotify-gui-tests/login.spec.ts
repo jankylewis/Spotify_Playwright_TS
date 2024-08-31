@@ -5,6 +5,7 @@ import { TopBar } from "../spotify-ui-test-services/businesses/shared/TopBar"
 
 test.describe("Login tests", () => {
 
+    //Introduce variables
     let homePage: HomePage
     let loginPage: LoginPage
     let topBar: TopBar
