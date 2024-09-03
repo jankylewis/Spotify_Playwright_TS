@@ -5,10 +5,13 @@ import { TopBar } from "../spotify-ui-test-services/businesses/shared/TopBar"
 
 test.describe("Login tests", () => {
 
-    //Introduce variables
+    //region Introduce variables
+
     let homePage: HomePage
     let loginPage: LoginPage
     let topBar: TopBar
+
+    //endregion Introduce variables
 
     test("User logged in successfully into Spotify gateway", async ({page}): Promise<void> => {
         await homePage.clickOnLoginButton()
